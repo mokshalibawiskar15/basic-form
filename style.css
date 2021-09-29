@@ -1,0 +1,41 @@
+main{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(to bottom right, red,yellow);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.abc{
+    height: 60vh;
+    width: 700px;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255,255,255,0.2), 
+        rgba(255,255,255,0.2));
+    
+    /* display: flex; */
+    border-radius: 20px;
+    z-index: 1;
+    margin: auto;
+    padding: 4%;
+    
+    /* flex-direction: column;
+    align-items: center; */
+    /* backdrop-filter: blur(1em); */
+    
+}
+.title{
+    text-align: center;
+
+}
+
+.submit-box{
+    width: 200px;
+    background:linear-gradient(to bottom right, red, yellow);
+    border-radius: 7px;
+    
+}
